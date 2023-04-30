@@ -33,22 +33,22 @@ const AddUser=()=>{
     <Typography variant="h4">Add User</Typography>
 <FormControl>
    <InputLabel>Name</InputLabel>
-   <Input onChange={(e)=>onValueChange(e)} name="name" value=""></Input>
+   <Input onChange={(e)=>onValueChange(e)} name="name"></Input>
 </FormControl>
 
 <FormControl>
    <InputLabel>UserName</InputLabel>
-   <Input onChange={(e)=>onValueChange(e)} name="username" value=""></Input>
+   <Input onChange={(e)=>onValueChange(e)} name="username"></Input>
 </FormControl>
 
 <FormControl>
    <InputLabel>Email</InputLabel>
-   <Input onChange={(e)=>onValueChange(e)} name="email" value=""></Input>
+   <Input onChange={(e)=>onValueChange(e)} name="email"></Input>
 </FormControl>
 
 <FormControl>
    <InputLabel>Phone</InputLabel>
-   <Input onChange={(e)=>onValueChange(e)} name="phone" value=""></Input>
+   <Input onChange={(e)=>onValueChange(e)} name="phone" ></Input>
 </FormControl>
 
 <FormControl>
